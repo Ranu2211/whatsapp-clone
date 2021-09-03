@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.navbar{
+    
+    background-color: rgb(51 51 51);
+color: #b9b7b7;
+}
+.navupper{
+    display: flex;
+    top: 0px;
+    padding: 30px;
+}
+.navupper .leftnav i {
+   
+    right: 83px;
+position: absolute;
+font-size: 22px;
+padding: 5px;
+}
+.navupper .rightnav i {
+   
+   right: 34px;
+position: absolute;
+font-size: 22px;
+padding: 5px;
+}
+.navlower{
+    display: flex;
+}
+.navlower i{
+    
+    font-size: 16px;
+padding: 3px 0px 16px 16px;
+}
+.navlower ul{
+    display: flex;
+    padding-left: 27px;
+}
+ul li {
+    list-style: none;
+}
+.navbar ul li a{
+    color: #b9b7b7;
+    text-decoration: none;
+    padding: 20px 46px 20px 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.navbar ul li a:hover{
+    color: rgb(18, 119, 52);
+    text-decoration: underline;
+}
+.sidenav{
+    width: 168px;
+    height: 47vh;
+    position: fixed;
+    top: 7px;
+    right: -168px;
+    background: rgb(76 76 76);
+    z-index: 2;
+    transition: 0.5sec;
+    
+}
+.sidenav li{
+    padding: 12px;
+}
+.sidenav li a{
+color: white;
+text-decoration: none;
+}
